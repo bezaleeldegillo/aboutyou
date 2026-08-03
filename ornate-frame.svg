@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6d430d"/>
+      <stop offset="10%" stop-color="#f4dc93"/>
+      <stop offset="24%" stop-color="#c88c25"/>
+      <stop offset="40%" stop-color="#fff3bc"/>
+      <stop offset="58%" stop-color="#b87414"/>
+      <stop offset="74%" stop-color="#f7de8d"/>
+      <stop offset="90%" stop-color="#7a470f"/>
+      <stop offset="100%" stop-color="#f0ca6a"/>
+    </linearGradient>
+    <linearGradient id="goldBright" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff7d6"/>
+      <stop offset="48%" stop-color="#f0c85f"/>
+      <stop offset="100%" stop-color="#b16f16"/>
+    </linearGradient>
+    <linearGradient id="goldDark" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7a460f"/>
+      <stop offset="50%" stop-color="#f0d27a"/>
+      <stop offset="100%" stop-color="#8b5211"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#2a1605" flood-opacity="0.45"/>
+    </filter>
+    <filter id="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#fff2bf" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <path fill="url(#gold)" fill-rule="evenodd" d="
+      M 72 28
+      H 928
+      C 955 28 972 45 972 72
+      V 928
+      C 972 955 955 972 928 972
+      H 72
+      C 45 972 28 955 28 928
+      V 72
+      C 28 45 45 28 72 28
+      Z
+
+      M 210 210
+      H 790
+      C 812 210 826 224 826 246
+      V 754
+      C 826 776 812 790 790 790
+      H 210
+      C 188 790 174 776 174 754
+      V 246
+      C 174 224 188 210 210 210
+      Z
+    "/>
+
+    <rect x="130" y="130" width="740" height="740" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.22" stroke-width="10" stroke-dasharray="1 16" stroke-linecap="round" filter="url(#soft)"/>
+    <rect x="150" y="150" width="700" height="700" rx="14" fill="none" stroke="#5a3412" stroke-opacity="0.45" stroke-width="8"/>
+    <rect x="178" y="178" width="644" height="644" rx="8" fill="none" stroke="#fff8e0" stroke-opacity="0.38" stroke-width="2"/>
+
+    <g fill="url(#goldBright)" opacity="0.98">
+      <path d="M 72 180 C 60 150 63 120 82 97 C 104 70 141 61 174 72 C 152 88 138 109 133 132 C 128 157 133 175 144 192 C 126 194 103 190 72 180 Z"/>
+      <path d="M 72 820 C 60 850 63 880 82 903 C 104 930 141 939 174 928 C 152 912 138 891 133 868 C 128 843 133 825 144 808 C 126 806 103 810 72 820 Z"/>
+      <path d="M 928 180 C 940 150 937 120 918 97 C 896 70 859 61 826 72 C 848 88 862 109 867 132 C 872 157 867 175 856 192 C 874 194 897 190 928 180 Z"/>
+      <path d="M 928 820 C 940 850 937 880 918 903 C 896 930 859 939 826 928 C 848 912 862 891 867 868 C 872 843 867 825 856 808 C 874 806 897 810 928 820 Z"/>
+    </g>
+
+    <g fill="none" stroke-linecap="round">
+      <path d="M 108 114 C 146 55 213 47 246 94 C 274 135 257 187 208 202 C 169 214 127 204 95 170 C 137 176 169 161 179 131 C 189 100 172 77 143 71 C 124 67 106 77 94 94" stroke="url(#goldDark)" stroke-width="18"/>
+      <path d="M 892 114 C 854 55 787 47 754 94 C 726 135 743 187 792 202 C 831 214 873 204 905 170 C 863 176 831 161 821 131 C 811 100 828 77 857 71 C 876 67 894 77 906 94" stroke="url(#goldDark)" stroke-width="18"/>
+      <path d="M 108 886 C 146 945 213 953 246 906 C 274 865 257 813 208 798 C 169 786 127 796 95 830 C 137 824 169 839 179 869 C 189 900 172 923 143 929 C 124 933 106 923 94 906" stroke="url(#goldDark)" stroke-width="18"/>
+      <path d="M 892 886 C 854 945 787 953 754 906 C 726 865 743 813 792 798 C 831 786 873 796 905 830 C 863 824 831 839 821 869 C 811 900 828 923 857 929 C 876 933 894 923 906 906" stroke="url(#goldDark)" stroke-width="18"/>
+    </g>
+
+    <g fill="url(#goldBright)" opacity="0.96">
+      <path d="M 500 48 C 543 48 579 66 602 92 C 579 95 558 109 545 130 C 528 121 514 116 500 116 C 486 116 472 121 455 130 C 442 109 421 95 398 92 C 421 66 457 48 500 48 Z"/>
+      <path d="M 500 952 C 543 952 579 934 602 908 C 579 905 558 891 545 870 C 528 879 514 884 500 884 C 486 884 472 879 455 870 C 442 891 421 905 398 908 C 421 934 457 952 500 952 Z"/>
+    </g>
+
+    <g fill="url(#goldDark)" opacity="0.92">
+      <circle cx="500" cy="77" r="17"/>
+      <circle cx="500" cy="923" r="17"/>
+      <circle cx="77" cy="500" r="17"/>
+      <circle cx="923" cy="500" r="17"/>
+    </g>
+  </g>
+</svg>
